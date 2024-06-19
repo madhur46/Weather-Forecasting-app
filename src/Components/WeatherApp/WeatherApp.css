@@ -1,0 +1,120 @@
+.container{
+    width: 100%;
+    max-width: 607px;
+    height:100vh;
+    margin: auto;
+    /* margin: 75px 0; */
+    border-radius: 12px;
+    background-image: linear-gradient(180deg,#130754 0%,#3b2f80 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.top-bar
+{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px; 
+
+}
+.top-bar input
+{
+    display: flex;
+    width: 363px;
+    height: 78px;
+    background:#ebfffc ;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.search-icon-image
+{
+    color: white;
+    font-size: 50px;
+}
+
+.weather-image {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    /* font-size: 10%; */ /* Remove or comment out this line */
+    margin-right: 65px;
+    color: white;
+}
+
+.weather-image img {
+    width: 100px; /* Adjust the width to your preference */
+    height: auto; /* Maintain aspect ratio */
+    filter: invert(100%);
+}
+.weather-temperature
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 110px;
+    font-weight: 400;
+    margin-right:40px;
+}
+
+.weather-location
+{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 60px;
+    font-weight: 400;
+    margin-right:40px;
+}
+.data-conatiner
+{
+   
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  justify-content: end;
+width: 600px;
+color: white;
+margin: 5% 0;
+
+}
+.element
+{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+}
+.data
+{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text
+{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.icon
+{
+    margin-top: 10px;
+    font-size: 55px;
+}
+
+@media (max-width: 500px) {
+    .element {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start */
+        gap: 10px; /* Adjust gap between items */
+    }
+}
+
